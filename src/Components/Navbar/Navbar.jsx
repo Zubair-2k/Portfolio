@@ -68,7 +68,7 @@ const Navbar = () => {
                 </ul>
 
 
-                <a href="/Zubair_A-Resume.pdf" download="Zubair_A_Resume.pdf" className='csv_btn'>
+                <a href={`${process.env.PUBLIC_URL}/Zubair_A-Resume.pdf`} download="Zubair_A_Resume.pdf" className='csv_btn'>
                     <div className='csv_btn_container'>
                         <i className="fa-solid fa-cloud-arrow-down"></i>
                         <p>CV</p>

@@ -285,4 +285,8 @@
     .contact_container {
         width: 90%;
     }
+    .contact_detail p{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
 }
